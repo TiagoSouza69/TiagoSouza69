@@ -1,0 +1,81 @@
+*{box-sizing: content-box;}
+        a{text-decoration: none;
+        color: yellow;}
+        a:hover{color: black; font-size: 24px;}
+        body{box-sizing: border-box;
+                  overflow-x: hidden;
+                background-color: rgba(211, 211, 211, 0.5);}
+                  h1{ color: orangered;
+                      text-align: center;
+                      font-family: 'Prata', serif;
+                      text-shadow: black 0.1em 0.1em 0.2em;
+                    font-size: 40px;}
+            .backgr{
+                background-color: red; 
+                color: yellow;
+                width: 450px;
+                border-radius: 5px;
+                border: solid black;
+                box-shadow: 10px 10px 5px 5px black;
+                
+                
+
+            }
+            .linha{
+              display: inline-flex;
+            }
+            .img{
+                background-image: url("../img/fundo-de-programacao-3d.jpg");
+                background-repeat: no-repeat;
+                height: 200px;
+                background-size: cover;
+               
+            }
+            p{color: white; 
+              font-size: 22px;
+              font-weight: bolder;
+              font-family: 'Prata', serif;
+}           
+            .inline{display:inline-flex;}
+            .youtube{
+              margin-right: 25px;
+              margin-left: 5px;
+            }
+            
+            .importancia{ position: absolute; left: 40%;
+            border: solid black; box-shadow: 10px 10px 5px 5px black;;
+             border-radius: 5px;} 
+            .subir{position: inherit; }
+            /*.som{position: absolute; left: 75%; }*/
+            .sem{text-decoration: none;}
+            figure{position: relative;
+              left: 65%;
+              bottom: 70px;
+        }
+        span{position: relative; left: 500px;}
+
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+         
+          .som{display: none;}
+          .youtube{
+            display:none;
+          }
+          h1{
+            position:relative;
+            right: 0;
+          }
+          main img{
+            position: relative;
+            left: 120px;
+          }
+          p{ font-size: 90%;}
+         .importancia{
+          display: none;
+         }
+         figure{position: relative;
+          right: 65%;
+          bottom: 100px;
+    }
+        }
+      
+        

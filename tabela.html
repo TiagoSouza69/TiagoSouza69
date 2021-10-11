@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/tabela.css">
+    <title>Máximus Serviços WEB</title>
+    <link rel="icon" href="./img/logo.png">
+</head>
+<body>
+    <table>
+        <tr><th>E-mail:</th>
+        <th>Fixo:</th>
+        <th>Whatsaap:</th>
+        <th>Serviço:</th>
+    </tr>
+        <tr>
+            <td>web@maximusservicos.com</td>
+            <td>(71)3241-0957</td>
+            <td><img src="./img/whatsapp-brands.svg" class="img-responsive">(71)9677-8788</td>
+            <td rowspan="2">Serviços Web</td>
+        </tr>
+        <tr>
+            <td>web2@maximusservicos.com</td>
+            <td>(71)3241-0957</td>
+            <td><img src="./img/whatsapp-brands.svg" class="img-responsive">(71)98651-3919</td>
+        </tr>
+        <tr>
+            <td>desenvolvimento@maximusservicos.com</td>
+            <td>(71)3241-0957</td>
+            <td><img src="./img/whatsapp-brands.svg" class="img-responsive">(71)98651-3919</td>
+            <td >Desenvolvimento de programas</td>
+        </tr>
+        <tr>
+            <td>infra@maximusservicos.com</td>
+            <td>(71)3241-0957</td>
+            <td><img src="./img/whatsapp-brands.svg" class="img-responsive">(71)98848-0185</td>
+            <td rowspan="2">Auditória em redes/infra de computadores</td>
+        </tr>
+        <tr>
+            <td>infra2@maximusservicos.com</td>
+            <td>(71)3241-0957</td>
+            <td><img src="./img/whatsapp-brands.svg" class="img-responsive">(71)98896-4857</td>
+        </tr>
+        <tr>
+            <td>saladeaula@maximusservicos.com</td>
+            <td>(71)3241-0957</td>
+            <td><img src="./img/whatsapp-brands.svg" class="img-responsive">(71)98651-3919</td>
+            <td>Configuração da plataforma google Classroom</td>
+        </tr>
+     </table>
+     <div class="contatos"> 
+     <form action="cadastro.php" method="POST">
+         <h2>Informe seu nome, número e  o serviço</h2>
+         <input type="text" placeholder="Informe seu nome:" autocomplete="on" required autofocus><br >
+         <input type="tel" placeholder="Informe seu telefone:" autocomplete="on" required ><br >
+         <input type="text" placeholder=" O qual serviço quer contratar:"><br >
+         <textarea name="" id="" cols="30" rows="5" placeholder="Comentário:"></textarea><br>
+         <label for=""><b>Deseja enviar algum arquivo?</b></label><br>
+         <input  type="file"><br>
+         <input class="submit" type="checkbox" checked="true"><span>De acordo com a politica de privacidade</span><br>
+         <button data-loading-text="Enviado com sucesso!">Enviar</button>
+     </form>
+     <img src="./img/contatos.png" alt="">
+    </div>  
+     <marquee><span>-Todos os direitos reservados</span></marquee>
+</body>
+</html>

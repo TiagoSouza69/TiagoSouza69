@@ -1,0 +1,48 @@
+body{background-color: rgba(211, 211, 211, 0.5);}
+    table,th,tr,td{border: 2px solid;
+    text-align: center;}
+    th{background-color: lightslategrey;}td{padding: 5px;}
+    .img-responsive{
+        width: 5%;
+        margin-right: 15px;
+    }
+    form{
+        margin-top: 5px;
+        background-color: red;
+        color: yellow;
+        border-radius: 5px;
+        width: 420px;
+        border: solid black;
+        padding: 10px;
+        border-style: double;
+        border-width: 5px;
+    }
+    input{width: 390px;
+    border-radius: 5px;
+       margin: 5px;
+    }
+    textarea{
+        width: 390px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    label{margin: 5px;}
+    .submit{
+        position: relative;
+        right: 190px;
+    }
+    span{
+        position: absolute;
+        left: 50px; 
+        margin: 0;
+    }
+    button{
+        width: 397px;
+        background-color: green;
+    }
+    .contatos{
+        display: inline-flex;
+    }
+    .contatos img{
+        width: 50%;
+    }
