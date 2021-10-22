@@ -54,17 +54,19 @@
     <h2>Empresa</h2>
     <ol  type="I">
         <li> <a href="somos.html"> Quem somos</a></li>
-        <li>Termo de uso</li>
-        <li ><a href="#"> Politica de privacidade</a></li>
-        <li>Depoimentos</li>
+        <li> <a href="termo.html"> Termo de uso</a></li>
+        <li ><a href="politica.html"> Politica de privacidade</a></li>
+        <li> <a href="depoimento.html"> Depoimentos</a></li>
         <li><a href="contrato.html">Termo do Contrato</a></li>
     </ol>
     <h2>Pós venda</h2>
     <ol type="I">
-        <li>SAC</li>
-        <li>Atualização</li>
-        <li>Consulta Prazo de serviço</li>
-        <li>Boleto</li>
+        <li> <a href="#" data-toggle="tooltip" title="Dúvidas, Sugestões ou Reclamações(7198651-3919)">SAC</a></li>
+        <li><a href="#" data-toggle="tooltip" title="Por favor entrar em contato com o técnico de acordo o tipo
+            de serviço apartir da página V-Contatos. ">Atualização</a></li>
+        <li><a href="#" data-toggle="tooltip" title="Por favor entrar em contato com o técnico de acordo o tipo
+            de serviço apartir da página V-Contatos. ">Consulta Prazo de serviço</a></li>
+        <li><a href="#" data-toggle="tooltip" title="Solicite Login e Senha exclusivos. ">Boleto</li>
         <li><a href="tabela.html">Contatos</a></li>
     </ol></div>
 </main>
@@ -80,6 +82,11 @@
 </footer>
  <script>
      alert("Seja bem vindo ao nosso site e escolha o seu serviço!");
+     $('[data-toggle="tooltip"]').tooltip({
+         container:'body',
+         placement:'right',
+         html:false
+     });
  </script>
  <script src="./js/jquery-3.5.1.js"></script>
     
