@@ -54,11 +54,11 @@
         }
         span{position: relative; left: 500px;}
 
-        @media screen and (min-width: 480px) and (max-width: 768px) {
+        @media screen and (min-width: 360px) and (max-width: 768px) {
          
           .som{display: none;}
-          .youtube{
-            display:none;
+          /*.youtube{
+            display:none;*/
           }
           h1{
             position:relative;
@@ -68,7 +68,7 @@
             position: relative;
             left: 120px;
           }
-          p{ font-size: 90%;}
+          p{ font-size: 82%;}
          .importancia{
           display: none;
          }
@@ -76,6 +76,6 @@
           right: 65%;
           bottom: 100px;
     }
-        }
+        
       
         
