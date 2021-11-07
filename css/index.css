@@ -54,7 +54,7 @@
         }
         span{position: relative; left: 500px;}
 
-        @media screen and (min-width: 360px) and (max-width: 768px) {
+        @media screen and (min-width: 340px) and (max-width: 768px) {
          
           .som{display: none;}
           /*.youtube{
@@ -68,7 +68,8 @@
             position: relative;
             left: 120px;
           }
-          p{ font-size: 82%;}
+          p{ font-size: 80%;
+          color: yellow;}
          .importancia{
           display: none;
          }
