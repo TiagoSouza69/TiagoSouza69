@@ -54,20 +54,22 @@
         }
         span{position: relative; left: 500px;}
 
-        @media screen and (min-width: 340px) and (max-width: 768px) {
+        @media screen and (min-width: 330px) and (max-width: 768px) {
          
-          .som{display: none;}
-          /*.youtube{
-            display:none;*/
+          .som{display: none;
           }
+          .youtube{
+            display:none;
+          }
+          
           h1{
             position:relative;
             right: 0;
           }
-          main img{
+         /* main img{
             position: relative;
             left: 120px;
-          }
+          }*/
           p{ font-size: 80%;
           color: yellow;}
          .importancia{
@@ -77,6 +79,7 @@
           right: 65%;
           bottom: 100px;
     }
+  }
         
       
         
