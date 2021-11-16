@@ -16,7 +16,16 @@
     }.dimen{
         width: 47%;
         height: 38%;
-    }</style>
+    }
+        @media screen and (min-width: 330px) and (max-width: 768px){
+          .dimensite{
+              width: 47%;
+          }
+          .rounded{
+              display: none;
+          }
+        }
+    </style>
     
      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
@@ -51,7 +60,7 @@
                          recem formados na faculdade no curso de ciências da computação e pós graduados em 
                          segurança da informação. Estudamos afinco para proporcionar a você <b>CONTRATANTE</b> todo retorno
                         que nossa técnologia contemporânea pode ofertar.  </p>
-                        <img class="rounded" src="./img/bacharel.webp" ></div>
+                        <img class="rounded " src="./img/bacharel.webp" ></div>
                 </section></div>
                 <div class="tab-pane " id="missao"><section>
                     <h3>Temos como missão o seu retorno financeiro por meio de tecnologia!</h3>
@@ -60,7 +69,7 @@
                         cotidiano é inevitalvemente jogada pra trás pelas concorrentes que se adequaram as regras
                         da tecno bussines. <b>Sejam bem vindos a WEB 3.0!</b>
                     </p>
-                   <div class="flex"><img src="./img/criasite.png" alt="">
+                   <div class="flex"><img class="dimensite" src="./img/criasite.png" alt="">
                <div> <h4>Criação de sites:</h4>
                 <h5>Sites responsivos, com layouts modernos e seguros <br/>
                     para você expandir os horizontes de seu negocio! E <br>
