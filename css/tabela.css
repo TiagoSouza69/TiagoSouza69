@@ -46,3 +46,6 @@ body{background-color: rgba(211, 211, 211, 0.5);}
     .contatos img{
         width: 50%;
     }
+    @media screen and (min-width: 330px) and (max-width: 768px){
+        .ver{display: none;}
+    }
